@@ -1,0 +1,258 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Mulish', sans-serif;
+    background-image: url(https://th.bing.com/th/id/R.8f1af73bfb31357ab141f2bad2d73d1a?rik=2LDM98VnACKBxQ&riu=http%3a%2f%2f4.bp.blogspot.com%2f-dA9j-Leed-8%2fUkL2K_RRAPI%2fAAAAAAAASks%2fLsJ86ybpJDo%2fs1600%2fDescargar%2bPack%2bBellos%2bFondos%2bde%2bpaisajes%2bHD%2b%25252812%252529.jpg&ehk=WqXeVuNsSVrYhbfnrHsrlF2qWOCRWhU4DEuM907XNUM%3d&risl=&pid=ImgRaw&r=0);
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+}
+
+#fondo_contenedor{
+
+
+height: 100vh;
+display: flex;
+
+
+}
+
+
+.cont_logear{
+   /* background-color: brown;*/
+    margin: auto;
+    width: 35%;
+   display: grid;
+   grid-template-columns: 1fr;
+   gap: 65px;
+    align-items: center;
+}
+.div_register{
+    background-color: #0000007a;
+    padding: 10px 24px;
+    color: white;
+    border-color: #959595;
+    border-style: solid;
+    border-radius: 14px;
+}
+
+
+.div_login{
+    color: white;
+    padding: 10px 24px ;
+    background-color: #0000007a;
+    border-color: #959595;
+    border-style: solid;
+    border-radius: 14px;
+
+}
+.div_login a{
+    text-decoration: none;
+}
+
+
+.div_login h1{
+    text-align: center;
+    font-size: 50px;
+}
+
+.div_login input{
+    width: 100%;
+    padding: 15px;
+    font-size: 17px;
+    background-color: #0b0b0b94;
+    background-color: #0b0b0b94;
+    font-weight: bold;
+    border-radius: 10px;
+    border-color: #ffffff75;
+    color: white;
+}
+
+.div_login button{
+    transition: all 1.50s;
+
+    font-weight: bold;
+    font-size: 20px;
+    padding: 13px 0;
+    text-align: center;
+    width: 100%;
+    margin: 15px  auto;
+    background-color: black;
+    border-style: solid;
+    border-color: black;
+    color: white;
+    border-radius: 8px;
+}
+
+
+.div_login button:hover{
+    cursor: pointer;
+    transition: all 1.50s;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 13px 0;
+    text-align: center;
+    width: 100%;
+    margin: 15px  auto;
+
+    border-style: solid;
+    border-color: #5dffaa ;
+    color: white;
+    border-radius: 8px;
+}
+
+
+
+
+
+.div_preguntas{
+    text-align: center;
+}
+
+.div_preguntas a{
+    color: #5dffaa;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ESTILOS PARA EL DIV DE REGISTRAR*/
+
+.div_register h1{
+    text-align: center;
+    font-size: 50px;
+}
+
+.div_register button{
+    transition: all 1.50s;
+   
+    font-weight: bold;
+    font-size: 20px;
+    padding: 13px 0;
+    text-align: center;
+    width: 100%;
+    margin: 15px  auto;
+    background-color: black;
+    border-style: solid;
+    border-color: black;
+    color: white;
+    border-radius: 8px;
+}
+
+.div_register button:hover{
+    cursor: pointer;
+    transition: all 1.50s;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 13px 0;
+    text-align: center;
+    width: 100%;
+    margin: 15px  auto;
+
+    border-style: solid;
+    border-color: #5dffaa ;
+    color: white;
+    border-radius: 8px;
+}
+
+
+
+
+.div_register input{
+    width: 100%;
+    padding: 10px;
+    font-size: 17px;
+    background-color: #0b0b0b94;
+    font-weight: bold;
+    border-radius: 10px;
+    border-color: #ffffff75;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 840px){
+
+
+
+#fondo_contenedor{
+    height: 100%;
+    padding-top: 205px;
+    padding-bottom: 205px;
+  /* padding-top: 200px;
+   padding-bottom: 200px;*/
+}
+
+
+
+.cont_logear{
+    width: 85%;
+}
+
+
+
+}
